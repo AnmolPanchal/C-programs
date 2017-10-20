@@ -37,6 +37,8 @@
     r1= -b/(2.0*a);
     printf("Equal; roots are:%f and %f  \n", r1,r1);
    }
+  getch();
+  }
+ }
+}
 
-getch();
-}}}

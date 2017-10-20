@@ -1,7 +1,7 @@
 #include<stdio.h> 
 #include<conio.h>
 
-void read(int x[][10],int nr,int nc);
+void read(intx[][10],int nr,int nc);
 void multiply(int a[][10],int b[][10],int c[][10],int l,int m,int n);
 
 void show(int y[][10],int nr,int nc);
@@ -34,7 +34,6 @@ show(c,nra,ncb);
 getch();
 }
 else
-{
 printf("matrix multiplication not possible:\n");
 getch();
 }

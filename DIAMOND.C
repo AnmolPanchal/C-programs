@@ -7,16 +7,16 @@
 void main()
 {
     int i, j, k;
-    int n = 0;clrscr();
+    int n = 0;
     printf("Program for displaying pattern of *.\n");
     printf("Enter the maximum number of *: ");
     scanf("%d", &n);
-
+ 
     printf("\nHere is the Diamond of Stars\n");
-
+ 
     for (i = 1; i <= n; i++)
     {
-	  for (j = 0; j < (n - i); j++)
+          for (j = 0; j < (n - i); j++)
                 printf(" ");
           for (j = 1; j <= i; j++)
                 printf("*");
